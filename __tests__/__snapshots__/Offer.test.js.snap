@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offer Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#E0F7FA",
+        "borderRadius": 8,
+        "marginVertical": 5,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#00796B",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      20% Off on First Order
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#004D40",
+          "fontSize": 14,
+          "marginTop": 5,
+        }
+      }
+    >
+      Use code: FIRST20
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#E0F7FA",
+        "borderRadius": 8,
+        "marginVertical": 5,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#00796B",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Order Delivered
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#004D40",
+          "fontSize": 14,
+          "marginTop": 5,
+        }
+      }
+    >
+      Your order #12345 was delivered
+    </Text>
+  </View>
+</View>
+`;

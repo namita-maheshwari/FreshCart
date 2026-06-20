@@ -1,0 +1,955 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f8f8f8",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingVertical": 10,
+      }
+    }
+    data={
+      [
+        {
+          "id": "1",
+          "image": "https://via.placeholder.com/100",
+          "name": "Bananas",
+          "price": "₹50.00/kg",
+        },
+        {
+          "id": "2",
+          "image": "https://via.placeholder.com/100",
+          "name": "Apples",
+          "price": "₹200.00/kg",
+        },
+        {
+          "id": "3",
+          "image": "https://via.placeholder.com/100",
+          "name": "Oranges",
+          "price": "₹100.50/kg",
+        },
+        {
+          "id": "4",
+          "image": "https://via.placeholder.com/100",
+          "name": "Milk",
+          "price": "₹60.00/lt.",
+        },
+        {
+          "id": "5",
+          "image": "https://via.placeholder.com/100",
+          "name": "Eggs",
+          "price": "₹2.50/piece",
+        },
+        {
+          "id": "6",
+          "image": "https://via.placeholder.com/100",
+          "name": "Bread",
+          "price": "₹50.00",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Bananas
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹50.00/kg
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Apples
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹200.00/kg
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Oranges
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹100.50/kg
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Milk
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹60.00/lt.
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Eggs
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹2.50/piece
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 10,
+                "flex": 1,
+                "margin": 5,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 10,
+                  "elevation": 2,
+                  "flex": 1,
+                  "margin": 5,
+                  "padding": 15,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://via.placeholder.com/100",
+                  }
+                }
+                style={
+                  {
+                    "height": 100,
+                    "marginBottom": 10,
+                    "width": 100,
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                Bread
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#888",
+                    "fontSize": 14,
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                ₹50.00
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "backgroundColor": "#14716C",
+                    "borderRadius": 5,
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#fff",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Add to Cart
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
